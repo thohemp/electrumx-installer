@@ -10,7 +10,7 @@ is to customise the configuration and to start electrumx.
 ## Usage
 This installs electrumx using the default options:
 
-    wget https://raw.githubusercontent.com/bauerj/electrumx-installer/master/bootstrap.sh -O - | bash
+    wget https://raw.githubusercontent.com/thohemp/electrumx-installer/master/bootstrap.sh -O - | bash
 
 You can also set some options if you want more control:
 
@@ -21,7 +21,7 @@ You can also set some options if you want more control:
 
 For example:
 
-    wget https://raw.githubusercontent.com/bauerj/electrumx-installer/master/bootstrap.sh -O - | bash -s - -d /media/ssd/electrum-db
+    wget https://raw.githubusercontent.com/thohemp/electrumx-installer/master/bootstrap.sh -O - | bash -s - -d /media/ssd/electrum-db
 
      
 ## Operating System Compatibility
@@ -40,5 +40,5 @@ The following operating systems are officially supported and automatically being
 
 
 If you prefer a different operating system that's not listed here, see
-[`distributions/README.md`](https://github.com/bauerj/electrumx-installer/blob/master/distributions/README.md) to find out how to add it.
-Or open an [issue](https://github.com/bauerj/electrumx-installer/issues/new) if you'd rather not do that yourself.
+[`distributions/README.md`](https://github.com/thohemp/electrumx-installer/blob/master/distributions/README.md) to find out how to add it.
+Or open an [issue](https://github.com/thohemp/electrumx-installer/issues/new) if you'd rather not do that yourself.
